@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="header">Tech Quiz</string>
+    <string name="question1">1.What does BIOS stands for?</string>
+    <string name="option1A">Basic Input Output System</string>
+    <string name="option1B">Board Integrated Output System</string>
+    <string name="option1C">Nothing BIOS is not an acronym</string>
+    <string name="question2">2.SATA is what?</string>
+    <string name="option2A">Virus</string>
+    <string name="option2B">Anti-Virus</string>
+    <string name="option2C">Hard Drive Interface</string>
+    <string name="question3">3.Alt+Prt Scr does what?</string>
+    <string name="option3A">Sends the current image to your printer</string>
+    <string name="option3B">Captures the active window to clipboard</string>
+    <string name="option3C">Captures the entire screen to the clipboard</string>
+    <string name="question4">4.How many Bits make a Byte?</string>
+    <string name="question5">5.First search engine in internet?</string>
+    <string name="question6">6.First Gen. Computer Names are ?</string>
+    <string name="option6A">UNIVAC</string>
+    <string name="option6B">ENIAC</string>
+    <string name="option6C">IBM 1401</string>
+    <string name="question7">7.Founders of Android ?</string>
+    <string name="option7A">Andy Rubin</string>
+    <string name="option7B">Rich Miner</string>
+    <string name="option7C">Larry Page</string>
+    <string name="button">Submit</string>
+    <string name="result">Your Score is </string>
+    <string name="hint">Your Name</string>
+    <string name="hi">Hi \u0020 </string>
+    <string name="you_have_scored"> \u0020 you have scored \u0020 </string>
+    <string name="outOf"> \u0020 out of 7.</string>
+    <string name="finalScore"></string>
+</resources>
