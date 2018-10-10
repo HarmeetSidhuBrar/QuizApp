@@ -79,27 +79,48 @@ public class MainActivity extends AppCompatActivity {
                 if (selectedId1==R.id.radioButton1A) {
                     score+=1;
                 }
+                else {
+                    score+=0;
+                }
 
                 if (selectedId2==R.id.radioButton2C) {
                     score+=1;
+                }
+                else {
+                    score+=0;
                 }
 
                 if (selectedId3==R.id.radioButton3B){
                     score+=1;
                 }
+                else {
+                    score+=0;
+                }
                 String questionFour=editText1.getText().toString();
                 if(questionFour.equals("8 Bits")){
                     score+=1;
+                }
+                else {
+                    score+=0;
                 }
                 String questionFifth =editText2.getText().toString();
                 if(questionFifth.equals("Archie")){
                     score+=1;
                 }
+                else {
+                    score+=0;
+                }
                 if ( checkBox1.isChecked() && checkBox2.isChecked() ){
                     score+=1;
                 }
+                else {
+                    score+=0;
+                }
                 if ( checkBox4.isChecked()&& checkBox6.isChecked() ){
                     score+=1;
+                }
+                else {
+                    score+=0;
                 }
 
                 String finalScore = getString(R.string.hi) + name + getString(R.string.you_have_scored) + score + getString(R.string.outOf);
